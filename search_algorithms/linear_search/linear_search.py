@@ -1,4 +1,4 @@
-# Linear search takes two arguments: a list of items to search for, and the target. 
+# This linear search takes two arguments: a list of items to search for, and the target. 
 # It returns the index position of the target if found. 
 
 def linear_search(list, target): 
@@ -12,7 +12,7 @@ def linear_search(list, target):
     # Else return None 
     return None
 
-# Function to verify the output of the function 
+# Function to verify the output of the linear_search
 def verify(index): 
     # If the index exists
     if index is not None: 
