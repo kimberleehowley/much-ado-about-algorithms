@@ -6,11 +6,13 @@
 ### This is the most efficient solution, because slice takes additional time 
 
 def recursive_binary_search(list, target, start=0, end=None):
+    # Base case 
     if end is None:
         end = len(list) - 1
     if start > end:
         return -1
 
+    # Establishing midpoint
     mid = (start + end) // 2
 
     if target == list[mid]:

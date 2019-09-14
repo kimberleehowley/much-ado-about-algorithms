@@ -13,7 +13,7 @@ Since, on average, the size of the data that *binary search* evaluates gets smal
 
 We say on average because in the best case scenario, the midpoint is the target and only one search is performed. But, computer scientists don't care about best case! 
 
-## When sould I use binary search? 
+## When should I use binary search? 
 When your list is ordered! You should apply binary search when you are looking for a faster solution than linear search, and when you are working with large data sets. 
 
 ## In practice 
