@@ -22,10 +22,11 @@ def verify(index):
         # Print that the target was not found 
         print("Target not found in list.")
 
-## Test data sets 
+# Test data sets 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 strings = ["Truth Hurts", "Juce", "Cuz I Love You", "Tempo"]
 
+# Printing results from test data 
 result = linear_search(numbers, 12)
 verify(result)
 

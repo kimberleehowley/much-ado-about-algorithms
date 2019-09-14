@@ -14,3 +14,5 @@ If you're working with a _very_ small data set, linear search might make sense. 
 
 ## In practice 
 Look at the linear_search.py file for examples of this algorithm in practice. 
+
+You can test the linear search function by cd'ing into the linear_search directory and running `python linear_search.py` in the terminal. 
