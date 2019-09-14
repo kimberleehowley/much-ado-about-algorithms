@@ -4,7 +4,7 @@
 *Linear search* goes through each item in a list, one by one, until either it finds what it's looking for, or, if it doesn't find what it's searching for, exits out. 
 
 ## Visual 
-<src="https://www.geeksforgeeks.org/wp-content/uploads/Linear-Search.png">
+![Linear search](https://www.geeksforgeeks.org/wp-content/uploads/Linear-Search.png)
 
 ## Big O
 
