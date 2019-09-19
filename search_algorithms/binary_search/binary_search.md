@@ -17,4 +17,4 @@ We say on average because in the best case scenario, the midpoint is the target 
 When your list is ordered! You should apply binary search when you are looking for a faster solution than linear search, and when you are working with large data sets. 
 
 ## In practice 
-Look at the binary_search.py file for an example of binary search. In your termail, you can cd into binary_search and run `python binary_searchy.py` to test out the algorithm. 
+Look at the binary_search.py file for an example of binary search. In your terminal, you can cd into binary_search and run `python binary_searchy.py` to test out the algorithm. 
