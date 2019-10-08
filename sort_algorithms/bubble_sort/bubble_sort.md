@@ -19,3 +19,6 @@ In general, we can estimate the number of times we'll have to iterate through wi
 
 #### When should I use it? 
 Bubble sort has a really bad reputation! But, since it's easy to understand, if you don't care about timing, or, you have a very small data set, it could be useful...maybe. 
+
+#### In practice 
+Look at the bubble_sort.py file for an example of a bubble sort implementation. In your terminal, you can cd into bubble_sort and run `python bubble_sort.py` to test out the algorithm. 
