@@ -36,9 +36,9 @@ def bubble_sort(sequence):
                 # Reset the flag so we loop again 
                 is_sorted = False
             
-            # Print a statement once the original leftmost value sequence[i] has reached the end of the list 
-            print("One full pass through sequence.")
-            print("Is sequence sorted? " + str(is_sorted))
+        # Print a statement once the original leftmost value sequence[i] has reached the end of the list 
+        print("One full pass through sequence.")
+        print("Is sequence sorted? " + str(is_sorted))
 
     # Once we've finished, print the final sequence
     print("The final order is " + str(sequence))
