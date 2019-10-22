@@ -33,4 +33,5 @@ Bubble sort has a really bad reputation! But, since it's easy to understand, if 
 #### In practice 
 Look at the bubble_sort.py file for an example of a bubble sort implementation. In your terminal, you can cd into bubble_sort and run `python bubble_sort.py` to test out the algorithm. 
 
-### Insertion sort 
+### Other notes 
+Sorting can take so long, that it might not be worth the effort, e.g. it's more efficient to just look for something each time you need it, or, it's okay that Michael sorts his books by color. 
