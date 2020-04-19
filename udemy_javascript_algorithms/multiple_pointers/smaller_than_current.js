@@ -11,31 +11,13 @@ var smallerNumbersThanCurrent = function(nums) {
         return 0; 
     }
     
-    // Setting up output 
-    let output = []; 
+    // Create a new, sorted array 
+    // Because .sort changes array in place, we use spread 
+    let sorted = [...nums].sort((a,b) => a-b); 
     
-    // Sorting numbers 
-    let sorted = nums.sort(); 
-
-    // Do something with sorted array 
+    // Use the sorted array as a comparison 
+    // Call .map on the original nums array to create a new array that: 
+    // Returns the index of where that number occurs in the sorted array 
     
-    // Variable where we start counting 
-    let i = 0; 
-    let count = 0; 
-    
-    // Loop through the array 
-    for (let j = 1; j < sorted.length; j++) {
-        // If the number to the right of i is bigger 
-        if (sorted[j] < sorted[i]) {
-            // Increment the count,  
-            count++; 
-        }
-        // Do nothing if it's greater than or the same 
-        // Once we've gone through rest of array, push the count to output 
-        output.push(count);
-        // Check the next number 
-        i++; 
-    }   
-    // Output the array you've been creating as you go
-    return sorted; 
+    return nums.map(num => sorted.indexOf(num));
 };
