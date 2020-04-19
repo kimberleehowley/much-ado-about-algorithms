@@ -16,6 +16,8 @@ var smallerNumbersThanCurrent = function(nums) {
     
     // Sorting numbers 
     let sorted = nums.sort(); 
+
+    // Do something with sorted array 
     
     // Variable where we start counting 
     let i = 0; 
