@@ -1,6 +1,5 @@
 function maxSubarraySum(array, num){
     // Set up variables 
-    let tempSum = 0; 
     let maxSum = 0; 
     let i = 0; 
     
