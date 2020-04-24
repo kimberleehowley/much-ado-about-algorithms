@@ -1,19 +1,32 @@
 function findLongestSubstring(string){
-    // Cumulative variables 
-    let tempLength = 0; 
-    let maxLength = 0; 
+    let start = 0; // Window value
+    let tracker = {}; // For counting the values we see 
     
-    // Window/counter variables 
-    let start = 0; 
-    let end = right + 1; 
+    let maxLength = 0;  
     
-    // As long as the end is not the length of the string 
-    while (end <= string.length) {
-        // See if the character to the right of start is unique 
-        // If so, increment the end, make the window bigger 
-        // If not, return the end value, which should be same as number of uniques 
+    // Edge case, empty or nonexistent string 
+    if (string === '' || string.length === 0) {
+        return 0; 
     }
     
+    // Edge case, if one letter just return 1 
+    if (string.length === 1) {
+        return 1; 
+    }
     
+    // Go through the string
+    for (let i = 0; i < string.length; i++) {
+        let letter = string[i];
+        // If the letter is in our tracker 
+        if (tracker[letter]) {
+            // Start at whichever was the one already seen 
+            start = Math.max(start, tracker[letter]);
+        }
+        // The max is either the current max value or the length of the substring
+        maxLength = Math.max(maxLength, i - start + 1)
+        // Store index of next character 
+        tracker[letter] = i + 1; 
+    }
+     return maxLength;     
   }
   
