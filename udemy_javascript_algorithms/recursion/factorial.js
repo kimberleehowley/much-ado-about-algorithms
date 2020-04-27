@@ -9,3 +9,12 @@ function factorial(num) {
     // Return the total 
     return total; 
 }
+
+// Recursive solution 
+function factorial(num) {
+    // Base case: if the num is 1, return 1, exit out
+    if (num === 1) return 1; 
+    // Recursive call
+    // If larger than 1, keep multiplying by smaller numbers 
+    return num * factorial(num-1); 
+}
