@@ -3,7 +3,7 @@
 // fib(28) // 317811
 // fib(35) // 9227465
 
-// Iterative solution
+// Iterative solution // 
 function fib(num) {
   // Set up an array with the first two fib numbers
   let array = [1, 1];
