@@ -21,7 +21,7 @@ function factorial(num) {
         return 1; 
     }
     
-    // Base case: if the num is 1, return 1, exit out
+    // Base case: if the num is 1, return 1 (you'll multiply by 1 below)
     if (num === 1) return 1; 
     // Recursive call
     // If larger than 1, keep multiplying by smaller numbers 
