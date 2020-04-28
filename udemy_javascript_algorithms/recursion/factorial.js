@@ -1,7 +1,7 @@
 // Iterative solution 
 function factorial(num) {
     let total = 1; 
-    // Loop through the number, decrementing
+    // Loop through the number, decrementing it
     for (let i = num; i > 1; i--) {
         // Multiply the total by the next number down
         total *= i; 
