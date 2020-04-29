@@ -17,3 +17,13 @@ function fib(num) {
   // Return the last element in the array
   return array.pop();
 }
+
+// Recursive solution // 
+function fib(n){
+    // If the number is less than or equal to 2, return 1 
+    // 1 is the first two numbers in the sequence 
+    if (n <= 2) return 1;
+
+    // Otherwise, return fib(n-1) + fib(n-2)
+    return fib(n-1) + fib(n-2);
+}
