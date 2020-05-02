@@ -1,0 +1,1 @@
+// Given an array and a number n, return the maximum product of a subArray of length n. 
