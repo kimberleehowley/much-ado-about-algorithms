@@ -1,3 +1,8 @@
+// Function that accepts an array and a callback 
+// Returns true if a single value in the array returns true when passed to the cb 
+// Otherwise returns false 
+
+
 // SAMPLE INPUT / OUTPUT
 // const isOdd = val => val % 2 !== 0;
 
@@ -7,9 +12,15 @@
 // someRecursive([4,6,8], val => val > 10); // false
 
 function someRecursive(array, callback){
-    // Check if array[0] meets callback condition 
-    // If it does, return True
-    // If it does not, pass a shortened array to the callback
-    // And go through the cycle again 
-    // Until array.length == 0 (base case)
-  }
+    
+  // Edge case: when array.length === 0, return false
+  if (array.length === 0) return false; 
+
+  // If the first element passed to callback returns true, return true 
+  if (callback(array[0]) === true) return true; 
+  
+  // Otherwise, call smaller array recursively 
+  return someRecursive(array.slice(1), callback); 
+}
+
+console.log(someRecursive([11, 4, 6, 8], val => val > 10)); 
