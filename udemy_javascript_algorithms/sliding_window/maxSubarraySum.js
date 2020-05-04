@@ -25,12 +25,13 @@ function maxSubarraySum(array, num){
     if (windowSize > nums.length) {
       return -Infinity;
     }
-    // Store maxSum variable
-    let maxSum = 0;
   
     // Start at the first number of the array
     // Add the 0-windowSize numbers together in subArray, save as temp sum
     let tempSum = nums.slice(0, windowSize).reduce((acc, num) => acc + num, 0);
+
+    // Store maxSum variable as tempSum 
+    let maxSum = tempSum;
   
     console.log(`maxSum:${maxSum} tempSum:${tempSum}`);
   
