@@ -11,7 +11,7 @@ function flatten(array) {
         // Check if the first element is an array 
         if (Array.isArray(array[i])) {
             // If it is, then concatenate it with the new array, recursively to separate out number by number
-            newArray = newArray.concat(flatten(oldArray[i])); 
+            newArray = newArray.concat(flatten(array[i])); 
         } else {
             // If it is not an array, push the element to the new Array 
             newArray.push(array[i])
