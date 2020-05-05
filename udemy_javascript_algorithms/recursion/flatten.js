@@ -2,14 +2,22 @@
 // Accepts an array of arrays and returns a new array with all values flattened 
 
 function flatten(array) {
-    // Create array from first '[' to next '['
-    // let newArray = array.slice(0, array.indexOf('[')); 
-    // console.log(newArray); 
-    // Look at remaining numbers, make new array until next '[' 
-    let remaining = array.slice(array.indexOf('[')); 
-    console.log(remaining); 
-    // Or, if no next '[' before the end, create array of remaining numbers 
-    // Then, concatenate together 
+    
+    // New variable for array 
+    let newArray = []
+
+    // Loop through the original array 
+    for (let i = 0; i < array.length; i++) {
+        // Check if the first element is an array 
+        if (Array.isArray(array[i])) {
+            // If it is, then concatenate it with the new array, recursively to separate out number by number
+            newArray = newArray.concat(flatten(oldArray[i])); 
+        } else {
+            // If it is not an array, push the element to the new Array 
+            newArray.push(array[i])
+        }
+    }
+    return newArray; 
  };
 
-flatten([1, 2, 3, [4, 5]]); 
+flatten([1, 2, 3, [4, 5] ]); 
