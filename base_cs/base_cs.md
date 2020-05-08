@@ -8,3 +8,5 @@
 - _Bit_: A single digit in binary 
 - _Byte_: 8 bits 
 - _Computer word_: Number of bits a computer can process at a time 
+
+## [Hexes and other magical numbers](https://medium.com/basecs/hexs-and-other-magical-numbers-9785bc26b7ee)
