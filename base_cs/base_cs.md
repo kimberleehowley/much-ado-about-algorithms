@@ -10,3 +10,10 @@
 - _Computer word_: Number of bits a computer can process at a time 
 
 ## [Hexes and other magical numbers](https://medium.com/basecs/hexs-and-other-magical-numbers-9785bc26b7ee)
+- _Encoding_: Standardized way of translating between two things. 
+- ASCII encoding: A set of rules for translating characters into numbers, including 0-9, upper and lowercase English alphabet, some special characters
+- _Hexadecimal_: Base 16; used to represent colors
+- The higher the base number of an encoding system, the fewer spaces needed to represent values, so, the fewer bytes needed 
+- For rgb color format, each consecutive pair of digits in hex codes is converted into decimals for rgb; each decimal represents a byte, or 8 bits 
+- Just 6 hexadecimal digits -> 16 million possible colors 
+- Other hex values: debug values "hexspeak"; version formatting of IP addresses 
