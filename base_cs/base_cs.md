@@ -31,3 +31,5 @@
 - _Singly linked_: nodes point in only one direction 
 - _Doubly linked_: nodes reference both what comes next _and_ what came before 
 - _Circular linked_: node that acts as a tail, and the node after the tail is the beginning 
+
+## [What's a Linked List, Anyway? [Part 2]](https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996)
