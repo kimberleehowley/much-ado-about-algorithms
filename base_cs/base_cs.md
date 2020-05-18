@@ -33,3 +33,11 @@
 - _Circular linked_: node that acts as a tail, and the node after the tail is the beginning 
 
 ## [What's a Linked List, Anyway? [Part 2]](https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996)
+- __Big O Notation__: A way of evaluating the performance of an algorithm, the amount of time a function, action, or algorithm takes to run based on how many elements we pass to it. _The speed and efficiency with which something functions when its input grows to be any size.__ 
+- **O(1)**: Constant time. 
+- **O(n)**: Linear: as our input grows, so does the time and space to run. 
+- **O(n^2)**: Grows exponentially. 
+
+### Linked Lists
+- All we need to do is rearrange our pointers (memory is not pre-allocated as with arrays)
+- In general, linked lists are great for _adding and removing_, but not great for searching and finding. 
