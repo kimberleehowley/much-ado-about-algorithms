@@ -41,3 +41,5 @@
 ### Linked Lists
 - All we need to do is rearrange our pointers (memory is not pre-allocated as with arrays)
 - In general, linked lists are great for _adding and removing_, but not great for searching and finding. 
+
+## [Stacks and Overflows](https://medium.com/basecs/stacks-and-overflows-dbcf7854dc67)
