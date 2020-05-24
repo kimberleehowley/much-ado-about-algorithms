@@ -43,3 +43,4 @@
 - In general, linked lists are great for _adding and removing_, but not great for searching and finding. 
 
 ## [Stacks and Overflows](https://medium.com/basecs/stacks-and-overflows-dbcf7854dc67)
+- _Call stack_: Structure that stores all things when a program is executed 
