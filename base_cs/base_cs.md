@@ -43,4 +43,11 @@
 - In general, linked lists are great for _adding and removing_, but not great for searching and finding. 
 
 ## [Stacks and Overflows](https://medium.com/basecs/stacks-and-overflows-dbcf7854dc67)
-- _Call stack_: Structure that stores all things when a program is executed 
+- _Call stack_: Structure that stores all things when a program is executed. 
+- In the stack data structure, in order to add or remove elements, we must start at the top, e.g. like a stack of books. 
+- This is known as _Last in, First out_ (LIFO).
+- Often implemented as Linked Lists, because of only one direction to go (and, also non contiguous storage). 
+- Arrays are difficult to use for setting up a stack because they require a set amount of space. 
+- The stack will think it can grow infinitely large, but since an array has a set amount of memory that would be exceeded by adding more, this would lead to a _Stack Overflow_. 
+- Stack methods: push (adds element to the top); pop (removes element from top); isEmpty (checks to see if stack is empty); top (checks which element is at the top of the stack); size (returns number of elements in a given stack at any given time)
+- Stack examples: browser history; undo/redo; call stack 
