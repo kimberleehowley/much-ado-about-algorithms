@@ -51,3 +51,5 @@
 - The stack will think it can grow infinitely large, but since an array has a set amount of memory that would be exceeded by adding more, this would lead to a _Stack Overflow_. 
 - Stack methods: push (adds element to the top); pop (removes element from top); isEmpty (checks to see if stack is empty); top (checks which element is at the top of the stack); size (returns number of elements in a given stack at any given time)
 - Stack examples: browser history; undo/redo; call stack 
+
+## [To Queue or not to Queue](https://medium.com/basecs/to-queue-or-not-to-queue-2653bcde5b04)
