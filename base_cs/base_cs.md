@@ -53,3 +53,9 @@
 - Stack examples: browser history; undo/redo; call stack 
 
 ## [To Queue or not to Queue](https://medium.com/basecs/to-queue-or-not-to-queue-2653bcde5b04)
+* Queues are used to implement jobs, workers, and network requests 
+* _Enqueue_: adds an element to the end of a queue 
+* _Dequeue_: removes the first element at the front of a queue 
+* Queues are _First in First Out (FIFO)_. Just like a queue at a literal ice cream shop. 
+* Are a bit trickier to implement as arrays, unless we know the exact size. 
+* There is also request queueing, when we send a request to a server from a browser! 
