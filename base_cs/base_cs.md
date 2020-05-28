@@ -59,3 +59,29 @@
 * Queues are _First in First Out (FIFO)_. Just like a queue at a literal ice cream shop. 
 * Are a bit trickier to implement as arrays, unless we know the exact size. 
 * There is also request queueing, when we send a request to a server from a browser! 
+
+## [How not to be Stumped by Trees](https://medium.com/basecs/how-to-not-be-stumped-by-trees-5f36208f68a7)
+* Trees are nonlinear data structures. 
+* _Linear structures_: have a logica start and end, and go in sequential orders with at least pointers. Arrays, linked list, and queues are all linear, and can be traversed sequentially. 
+* _Nonlinear_: data doesn't really follow an order. 
+* Trees are made up of _nodes and lists_. 
+* Root nodes can link to multiple other nodes, so data can expand in multiple different ways. 
+* Root: top node of the tree. 
+* Link/Edge: reference from parent to child node 
+* Child: any node with a parent
+* Parent: any node with a child 
+* Sibling: any group of nodes that are children of the same node 
+* Internal: any node that has a child node (all parents)
+* Leaf: childless nodes 
+* _Data is hierarchical in trees._ 
+### Tree facts
+* A tree has _n_ nodes, and _n - 1_ edges/links (the root never has a link to it)
+* Trees are recursive: they contain nested trees 
+### Classifying trees 
+* _Depth_: How far away is the node from the root of the tree? 
+* _Height_: How far is the node from its furthest-away leaf? 
+* _Balanced trees_: Sibling subtrees do not differ in height by more than 1 level 
+* _Unbalanced trees_: When siblings differ significantly in height 
+### Tree examples 
+- In Object-oriented programming, the _Object_ is the root node, and instances that inherit from it are children 
+- File systems are root directories 
